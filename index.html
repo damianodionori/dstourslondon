@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Tours - Guide Turistiche a Londra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="DS Tours Logo">
+                <h1>DS Tours</h1>
+            </div>
+            <div class="menu-toggle">☰</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="language-content" data-en="Home" data-it="Home">Home</a></li>
+                    <li><a href="#tours" class="language-content" data-en="Tours" data-it="Tour">Tours</a></li>
+                    <li><a href="#book" class="language-content" data-en="Book" data-it="Prenota">Book</a></li>
+                    <li><a href="#about" class="language-content" data-en="About Us" data-it="Chi Siamo">About Us</a></li>
+                </ul>
+                <div class="language-selector">
+                    <img src="images/uk-flag.png" alt="UK Flag" id="en-lang">
+                    <img src="images/it-flag.png" alt="Italian Flag" id="it-lang">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>DS Tours</h2>
+            <p class="language-content" 
+               data-en="Explore London with expert local guides. Discover the history, culture, and hidden secrets of the city with our personalized tours in English and Italian." 
+               data-it="Esplora Londra con guide locali esperte. Scopri la storia, cultura e segreti nascosti della città con i nostri tour personalizzati in italiano e inglese.">
+               Explore London with expert local guides. Discover the history, culture, and hidden secrets of the city with our personalized tours in English and Italian.
+            </p>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section class="tours" id="tours">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="language-content" data-en="Our Tours" data-it="I Nostri Tour">Our Tours</h2>
+                <p class="language-content" data-en="Discover the beauty of London with our exclusive tours" data-it="Scopri la bellezza di Londra con i nostri tour esclusivi">Discover the beauty of London with our exclusive tours</p>
+            </div>
+            <div class="tours-grid">
+                <!-- British Museum -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/british-museum.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="British Museum" data-it="British Museum">British Museum</h3>
+                        <p class="language-content" 
+                           data-en="Explore one of the world's most famous museums, with an incredible collection of artifacts from ancient civilizations." 
+                           data-it="Esplora uno dei musei più famosi al mondo, con un'incredibile collezione di artefatti di antiche civiltà.">
+                           Explore one of the world's most famous museums, with an incredible collection of artifacts from ancient civilizations.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- National Gallery -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/national-gallery.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="National Gallery" data-it="National Gallery">National Gallery</h3>
+                        <p class="language-content" 
+                           data-en="Discover the masterpieces of European painting from the 13th to the 19th centuries." 
+                           data-it="Scopri i capolavori della pittura europea dal XIII al XIX secolo.">
+                           Discover the masterpieces of European painting from the 13th to the 19th centuries.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Natural History Museum -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/natural-history.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="Natural History Museum" data-it="Museo di Storia Naturale">Natural History Museum</h3>
+                        <p class="language-content" 
+                           data-en="Experience the wonders of the natural world, from dinosaur skeletons to precious gems." 
+                           data-it="Vivi le meraviglie del mondo naturale, dagli scheletri di dinosauri alle pietre preziose.">
+                           Experience the wonders of the natural world, from dinosaur skeletons to precious gems.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Westminster Walking Tour -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/westminster.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="Westminster Walking Tour" data-it="Tour a Piedi di Westminster">Westminster Walking Tour</h3>
+                        <p class="language-content" 
+                           data-en="Walk through the political heart of London, seeing iconic landmarks like Big Ben and Westminster Abbey." 
+                           data-it="Cammina attraverso il cuore politico di Londra, vedendo monumenti iconici come il Big Ben e l'Abbazia di Westminster.">
+                           Walk through the political heart of London, seeing iconic landmarks like Big Ben and Westminster Abbey.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- City Walking Tour -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/city.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="City Walking Tour" data-it="Tour a Piedi della City">City Walking Tour</h3>
+                        <p class="language-content" 
+                           data-en="Discover the ancient and modern aspects of London's financial district." 
+                           data-it="Scopri gli aspetti antichi e moderni del distretto finanziario di Londra.">
+                           Discover the ancient and modern aspects of London's financial district.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Harry Potter Filming Locations -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/harry-potter.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="Harry Potter Filming Locations" data-it="Luoghi di Harry Potter">Harry Potter Filming Locations</h3>
+                        <p class="language-content" 
+                           data-en="Visit the magical locations from the Harry Potter films across London." 
+                           data-it="Visita i luoghi magici dei film di Harry Potter a Londra.">
+                           Visit the magical locations from the Harry Potter films across London.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+                
+                <!-- Changing of the Guard -->
+                <div class="tour-card">
+                    <div class="tour-image" style="background-image: url('images/changing-guard.jpg')"></div>
+                    <div class="tour-content">
+                        <h3 class="language-content" data-en="Changing of the Guard" data-it="Cambio della Guardia">Changing of the Guard</h3>
+                        <p class="language-content" 
+                           data-en="Witness this famous ceremony at Buckingham Palace with expert commentary." 
+                           data-it="Assisti a questa famosa cerimonia a Buckingham Palace con commento esperto.">
+                           Witness this famous ceremony at Buckingham Palace with expert commentary.
+                        </p>
+                        <a href="#book" class="btn language-content" data-en="Book Now" data-it="Prenota Ora">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="contact" id="book">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="language-content" data-en="Book Your Tour" data-it="Prenota il Tuo Tour">Book Your Tour</h2>
+                <p class="language-content" data-en="Fill out the form below to request a tour" data-it="Compila il modulo sottostante per richiedere un tour">Fill out the form below to request a tour</p>
+            </div>
+            <div class="contact-form">
+                <form id="booking-form">
+                    <div class="form-group">
+                        <label for="name" class="language-content" data-en="Name" data-it="Nome">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="language-content" data-en="Email" data-it="Email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tour" class="language-content" data-en="Select Tour" data-it="Seleziona Tour">Select Tour</label>
+                        <select id="tour" class="form-control" required>
+                            <option value="" class="language-content" data-en="-- Select a Tour --" data-it="-- Seleziona un Tour --">-- Select a Tour --</option>
+                            <option value="british-museum" class="language-content" data-en="British Museum" data-it="British Museum">British Museum</option>
+                            <option value="national-gallery" class="language-content" data-en="National Gallery" data-it="National Gallery">National Gallery</option>
+                            <option value="natural-history" class="language-content" data-en="Natural History Museum" data-it="Museo di Storia Naturale">Natural History Museum</option>
+                            <option value="westminster" class="language-content" data-en="Westminster Walking Tour" data-it="Tour a Piedi di Westminster">Westminster Walking Tour</option>
+                            <option value="city" class="language-content" data-en="City Walking Tour" data-it="Tour a Piedi della City">City Walking Tour</option>
+                            <option value="harry-potter" class="language-content" data-en="Harry Potter Filming Locations" data-it="Luoghi di Harry Potter">Harry Potter Filming Locations</option>
+                            <option value="changing-guard" class="language-content" data-en="Changing of the Guard" data-it="Cambio della Guardia">Changing of the Guard</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date" class="language-content" data-en="Preferred Date" data-it="Data Preferita">Preferred Date</label>
+                        <input type="date" id="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="participants" class="language-content" data-en="Number of Participants" data-it="Numero di Partecipanti">Number of Participants</label>
+                        <input type="number" id="participants" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="language-content" data-en="Additional Information" data-it="Informazioni Aggiuntive">Additional Information</label>
+                        <textarea id="message" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-full language-content" data-en="Submit Request" data-it="Invia Richiesta">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="language-content" data-en="About Us" data-it="Chi Siamo">About Us</h2>
+                <p class="language-content" data-en="Meet your expert London tour guides" data-it="Incontra le tue guide esperte di Londra">Meet your expert London tour guides</p>
+            </div>
+            <div class="guides">
+                <div class="guide">
+                    <div class="guide-image" style="background-image: url('images/damiano.jpg')"></div>
+                    <h3>Damiano</h3>
+                    <p class="language-content" 
+                       data-en="With over 10 years of experience, Damiano is passionate about London's history and architecture. Originally from Italy, he offers tours in both English and Italian." 
+                       data-it="Con oltre 10 anni di esperienza, Damiano è appassionato di storia e architettura di Londra. Originario dell'Italia, offre tour sia in inglese che in italiano.">
+                       With over 10 years of experience, Damiano is passionate about London's history and architecture. Originally from Italy, he offers tours in both English and Italian.
+                    </p>
+                </div>
+                <div class="guide">
+                    <div class="guide-image" style="background-image: url('images/stefania.jpg')"></div>
+                    <h3>Stefania</h3>
+                    <p class="language-content" 
+                       data-en="An art historian specializing in British art, Stefania brings London's museums and galleries to life. She provides insightful tours in both English and Italian." 
+                       data-it="Storica dell'arte specializzata in arte britannica, Stefania dà vita ai musei e alle gallerie di Londra. Fornisce tour approfonditi sia in inglese che in italiano.">
+                       An art historian specializing in British art, Stefania brings London's museums and galleries to life. She provides insightful tours in both English and Italian.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <h3>DS Tours</h3>
+                <p class="language-content" 
+                   data-en="Exploring London's history, art, and culture with personalized guided tours." 
+                   data-it="Esplora la storia, l'arte e la cultura di Londra con tour guidati personalizzati.">
+                   Exploring London's history, art, and culture with personalized guided tours.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3 class="language-content" data-en="Quick Links" data-it="Link Rapidi">Quick Links</h3>
+                <ul>
+                    <li><a href="#home" class="language-content" data-en="Home" data-it="Home">Home</a></li>
+                    <li><a href="#tours" class="language-content" data-en="Tours" data-it="Tour">Tours</a></li>
+                    <li><a href="#book" class="language-content" data-en="Book" data-it="Prenota">Book</a></li>
+                    <li><a href="#about" class="language-content" data-en="About Us" data-it="Chi Siamo">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3 class="language-content" data-en="Contact Us" data-it="Contattaci">Contact Us</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> info@dstours.co.uk</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-tripadvisor"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 DS Tours. <span class="language-content" data-en="All rights reserved." data-it="Tutti i diritti riservati.">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
